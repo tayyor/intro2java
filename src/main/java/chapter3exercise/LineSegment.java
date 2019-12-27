@@ -38,7 +38,7 @@ public class LineSegment {
         double Py = Math.pow(Dy,2);
         D1 = Math.pow(Px+Py, 0.5);
         
-        //CALCULATE DISTANCE FOR D2
+        //CALCULATE DISTANCE FOR D2 p0,p2
         Dx = x2-x0;
          Dy = y2-y0;
          Px = Math.pow(Dx,2);
