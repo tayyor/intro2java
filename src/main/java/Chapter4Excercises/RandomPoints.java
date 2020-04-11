@@ -22,11 +22,7 @@ public class RandomPoints {
         double A = rand.nextInt(361);
         double B = rand.nextInt(361);
         double C = rand.nextInt(361);
-        System.out.println("Random numbers");
-        System.out.println("A is :" + A);
-        System.out.println("B is :" + B);
-        System.out.println("C is :" + C);
-
+        
         //derive points using the formular provided in the question
         double x1 = r * Math.cos(A);
         double y1 = r * Math.sin(A);
